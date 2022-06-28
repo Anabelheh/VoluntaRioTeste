@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Formulário de Login e Registro com HTML5 e CSS3</title>
+  <link rel="stylesheet" type="text/css" href="estilodologin.css" />
+</head>
+<style>
+* body {
+  background-color: #f1f1f1;
+}
+
+ 
+ h1{
+  font-size: 48px;
+  color: #066a75;
+  padding: 2px 0 10px 0;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 30px;
+}
+ p{
+  margin-bottom:15px;
+}
+ 
+.content p:first-child{
+  margin: 0px;
+}
+ 
+label{
+  color: #405c60;
+  position: relative;
+}
+input {
+  outline: none;
+}
+ 
+/*estilo dos input,  menos o checkbox */
+input:not([type="checkbox"]){
+  width: 35%;
+  margin-top: 10px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px inset;
+  box-shadow: 0px 1px 4px 0px inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit */
+input[type="submit"]{
+  width: 45;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+ 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+ 
+/*estilo do botão submit no hover */
+input[type="submit"]:hover{
+  background: #4ab3c6;
+}
+
+
+</style>
+
+<body>   
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="post" action="login.php"> 
+          <h1>VoluntaRio</h1> 
+          <p> 
+            <label for="nome_login">Seu Usuario</label>
+            <input id="email_login" name="email_login" required="required" type="text" placeholder="Digite Seu Usuario..."/>
+          </p>
+           
+          <p> 
+            <label for="email_login">Sua Senha</label>
+            <input id="senha_login" name="senha_login" required="required" type="password" placeholder="Digite Sua Senha..." /> 
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="Registro.html">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+ </body>
+ </html>
+   

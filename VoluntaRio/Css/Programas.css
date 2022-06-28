@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box; 
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+body {
+  margin: 0;
+  font-size:20px;
+  font-family: DejaVu Sans Mono, monospace;
+}
+
+/* estilo menu */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  border-width: medium;
+  padding: 25px 15px;
+}
+
+/* estilo dos links */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: right;
+  padding: 35px 15px;
+  text-decoration: none;
+  
+ }
+ .header {
+  background-color: #1C1C1C;
+  padding: 70px;
+  text-align: left;
+  color: white;
+  margin: 20;
+  font-size: 30px;
+}
+.footer {
+  background-color: white;
+  border-width: medium;
+  padding: 70px;
+  text-align: left;
+  color: black;
+  margin: 20;
+  font-size: 20px;
+ } 
