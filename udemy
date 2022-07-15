@@ -1,24 +1,26 @@
 PLANEJAMENTO CURSO UDEMY
 Módulos essenciais:
 
-front-end: 36hrs
+Front-end: 38hrs
+  3.html 3hrs
+  4.css 5hrs
+  5. css intermediario e avançado 7hrs
+  6. html e css recursos 3hrs
+  7. bootstrap 10hrs
+  8. javascript 8hrs
+  21. sass 2hrs
 
-3.html 3hrs
-4.css 5hrs
-5. css intermediario e avançado 7hrs
-6. html e css recursos 3hrs
-7. bootstrap 10hrs
-8. javascript 8hrs
+Back-end: 39hrs
+  10. intro apache, php, mysql 1hr
+  11. php 7 10hrs
+  12. php oo 6hrs
+  13. BD Mysql 5hrs
+  14. ajax 3hrs
+  15. php pdo e mysql 4hrs
+  16. publicação na internet 1hr
+  17. jquery 6hrs
+  18. padrao de arquitetura 3hrs
 
-back-end
-
-10. intro apache, php, mysql 1hr
-11. php 7 10hrs
-12. php oo 6hrs
-13. BD Mysql 5hrs
-14. ajax 3hrs
-15. php pdo e mysql 4hrs
-16. publicação na internet 1hr
-17. jquery 6hrs
-18. padrao de arquitetura 3hrs
-19.
+Full stack
+  19.twitter clone
+  23. wordpress
